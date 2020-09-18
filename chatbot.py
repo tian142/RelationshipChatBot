@@ -1,8 +1,9 @@
-# get random moduel from the random library
+# get random moduel from the random library.
 from random import choice
 
+# combine functions and conditionals to get a response from the bot.
 
-# combine functions and conditionals to get a response from the bot
+
 def get_bot_response(user_response):
 
  # added bot responses to this list
@@ -28,7 +29,7 @@ def get_bot_response(user_response):
 
 
 # Ask user to input answer
-print("Welcome to Couple or Single")
+print("Welcome to Couple or Single!")
 print("Are you currently single?")
 
 user_response = ""
