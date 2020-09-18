@@ -13,8 +13,8 @@ def get_bot_response(user_response):
                                "Hope you both make good decisions!", "Sorry to hear that, I whish you both the best."]
     bot_response_single_happy = [
         "Good for you!", "Nice, you have lots of time for your self than people in relationships!", "Happy single people make for best parterners!"]
-    bot_response_single_sad = ["It's ok, plenty of fishes in the sea",
-                               "It will come, don't rush and take care of your self", "Sorry to hear that, I wish the best for you!"]
+    bot_response_single_sad = ["It's ok, plenty of fishes in the sea.",
+                               "It will come, don't rush and take care of your self.", "Sorry to hear that, I wish the best for you!"]
 
     if user_response == "y" and user_response2 == "y":
         return choice(bot_response_couple_happy)
@@ -38,7 +38,7 @@ user_response2 = ""
 # keep repeating until the user enters "done".
 while True:
     user_response = input("Are you currently in a relationship? (y/n) ")
-    user_response2 = input("Are you happy about it? (y/n)")
+    user_response2 = input("Are you happy about it? (y/n) ")
 
     if user_response == 'done':
         break
