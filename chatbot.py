@@ -8,7 +8,7 @@ def get_bot_response(user_response):
 
  # added bot responses to this list
     bot_response_couple_happy = ["Thats great! Keep taking good care of each other!",
-                                 "how sweet, I'm happy for you both!", "Good for you!", "Life is short, enjoy while it lasts :)"]
+                                 "how sweet, I'm happy for you both!", "Good for you!", "Life is short, enjoy while it. :)"]
     bot_response_couple_sad = ["Maybe it'll get better tomorrow!",
                                "Hope you both make good decisions!", "Sorry to hear that, I whish you both the best."]
     bot_response_single_happy = [
